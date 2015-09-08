@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD182BED1B9F3F4600760A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182BEC1B9F3F4600760A8C /* AppDelegate.swift */; };
+		DD182BF01B9F3F4600760A8C /* OTA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD182BEE1B9F3F4600760A8C /* OTA.xcdatamodeld */; };
+		DD182BF21B9F3F4600760A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182BF11B9F3F4600760A8C /* ViewController.swift */; };
+		DD182BF51B9F3F4600760A8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD182BF31B9F3F4600760A8C /* Main.storyboard */; };
+		DD182BF71B9F3F4600760A8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD182BF61B9F3F4600760A8C /* Images.xcassets */; };
+		DD182BFA1B9F3F4600760A8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD182BF81B9F3F4600760A8C /* LaunchScreen.xib */; };
+		DD182C061B9F3F4600760A8C /* OTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182C051B9F3F4600760A8C /* OTATests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD182C001B9F3F4600760A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD182BDF1B9F3F4600760A8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD182BE61B9F3F4600760A8C;
+			remoteInfo = OTA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD182BE71B9F3F4600760A8C /* OTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD182BEB1B9F3F4600760A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD182BEC1B9F3F4600760A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD182BEF1B9F3F4600760A8C /* OTA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OTA.xcdatamodel; sourceTree = "<group>"; };
+		DD182BF11B9F3F4600760A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD182BF41B9F3F4600760A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD182BF61B9F3F4600760A8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD182BF91B9F3F4600760A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD182BFF1B9F3F4600760A8C /* OTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD182C041B9F3F4600760A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD182C051B9F3F4600760A8C /* OTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTATests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD182BE41B9F3F4600760A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182BFC1B9F3F4600760A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD182BDE1B9F3F4600760A8C = {
+			isa = PBXGroup;
+			children = (
+				DD182BE91B9F3F4600760A8C /* OTA */,
+				DD182C021B9F3F4600760A8C /* OTATests */,
+				DD182BE81B9F3F4600760A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD182BE81B9F3F4600760A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD182BE71B9F3F4600760A8C /* OTA.app */,
+				DD182BFF1B9F3F4600760A8C /* OTATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD182BE91B9F3F4600760A8C /* OTA */ = {
+			isa = PBXGroup;
+			children = (
+				DD182BEC1B9F3F4600760A8C /* AppDelegate.swift */,
+				DD182BF11B9F3F4600760A8C /* ViewController.swift */,
+				DD182BF31B9F3F4600760A8C /* Main.storyboard */,
+				DD182BF61B9F3F4600760A8C /* Images.xcassets */,
+				DD182BF81B9F3F4600760A8C /* LaunchScreen.xib */,
+				DD182BEE1B9F3F4600760A8C /* OTA.xcdatamodeld */,
+				DD182BEA1B9F3F4600760A8C /* Supporting Files */,
+			);
+			path = OTA;
+			sourceTree = "<group>";
+		};
+		DD182BEA1B9F3F4600760A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD182BEB1B9F3F4600760A8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD182C021B9F3F4600760A8C /* OTATests */ = {
+			isa = PBXGroup;
+			children = (
+				DD182C051B9F3F4600760A8C /* OTATests.swift */,
+				DD182C031B9F3F4600760A8C /* Supporting Files */,
+			);
+			path = OTATests;
+			sourceTree = "<group>";
+		};
+		DD182C031B9F3F4600760A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD182C041B9F3F4600760A8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD182BE61B9F3F4600760A8C /* OTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD182C091B9F3F4600760A8C /* Build configuration list for PBXNativeTarget "OTA" */;
+			buildPhases = (
+				DD182BE31B9F3F4600760A8C /* Sources */,
+				DD182BE41B9F3F4600760A8C /* Frameworks */,
+				DD182BE51B9F3F4600760A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTA;
+			productName = OTA;
+			productReference = DD182BE71B9F3F4600760A8C /* OTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD182BFE1B9F3F4600760A8C /* OTATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD182C0C1B9F3F4600760A8C /* Build configuration list for PBXNativeTarget "OTATests" */;
+			buildPhases = (
+				DD182BFB1B9F3F4600760A8C /* Sources */,
+				DD182BFC1B9F3F4600760A8C /* Frameworks */,
+				DD182BFD1B9F3F4600760A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD182C011B9F3F4600760A8C /* PBXTargetDependency */,
+			);
+			name = OTATests;
+			productName = OTATests;
+			productReference = DD182BFF1B9F3F4600760A8C /* OTATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD182BDF1B9F3F4600760A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Todd Papke";
+				TargetAttributes = {
+					DD182BE61B9F3F4600760A8C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DD182BFE1B9F3F4600760A8C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DD182BE61B9F3F4600760A8C;
+					};
+				};
+			};
+			buildConfigurationList = DD182BE21B9F3F4600760A8C /* Build configuration list for PBXProject "OTA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD182BDE1B9F3F4600760A8C;
+			productRefGroup = DD182BE81B9F3F4600760A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD182BE61B9F3F4600760A8C /* OTA */,
+				DD182BFE1B9F3F4600760A8C /* OTATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD182BE51B9F3F4600760A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD182BF51B9F3F4600760A8C /* Main.storyboard in Resources */,
+				DD182BFA1B9F3F4600760A8C /* LaunchScreen.xib in Resources */,
+				DD182BF71B9F3F4600760A8C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182BFD1B9F3F4600760A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD182BE31B9F3F4600760A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD182BF21B9F3F4600760A8C /* ViewController.swift in Sources */,
+				DD182BF01B9F3F4600760A8C /* OTA.xcdatamodeld in Sources */,
+				DD182BED1B9F3F4600760A8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182BFB1B9F3F4600760A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD182C061B9F3F4600760A8C /* OTATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD182C011B9F3F4600760A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD182BE61B9F3F4600760A8C /* OTA */;
+			targetProxy = DD182C001B9F3F4600760A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD182BF31B9F3F4600760A8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD182BF41B9F3F4600760A8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD182BF81B9F3F4600760A8C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD182BF91B9F3F4600760A8C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD182C071B9F3F4600760A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD182C081B9F3F4600760A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD182C0A1B9F3F4600760A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD182C0B1B9F3F4600760A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD182C0D1B9F3F4600760A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OTATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTA.app/OTA";
+			};
+			name = Debug;
+		};
+		DD182C0E1B9F3F4600760A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OTATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTA.app/OTA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD182BE21B9F3F4600760A8C /* Build configuration list for PBXProject "OTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD182C071B9F3F4600760A8C /* Debug */,
+				DD182C081B9F3F4600760A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD182C091B9F3F4600760A8C /* Build configuration list for PBXNativeTarget "OTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD182C0A1B9F3F4600760A8C /* Debug */,
+				DD182C0B1B9F3F4600760A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD182C0C1B9F3F4600760A8C /* Build configuration list for PBXNativeTarget "OTATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD182C0D1B9F3F4600760A8C /* Debug */,
+				DD182C0E1B9F3F4600760A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD182BEE1B9F3F4600760A8C /* OTA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD182BEF1B9F3F4600760A8C /* OTA.xcdatamodel */,
+			);
+			currentVersion = DD182BEF1B9F3F4600760A8C /* OTA.xcdatamodel */;
+			path = OTA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD182BDF1B9F3F4600760A8C /* Project object */;
+}
