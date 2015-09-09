@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+//        let imageName = "OTALogo.png"
+//        let backgroundView: UIImageView = imageName
+//        // backgroundView.backgroundColor = UIColor(patternImage: UIImage(named:"OTALogo.png")!)
+//        //(colorWithPatternImage:UImage imageNamed:@"OTALogo.png"
+//        //   window addSubView:backgroundView
+//        //   self.window makeKeyAndVisible
+//        backgroundView.layer.borderColor = UIColor(patternImage:UIImage(named: "OTALogo.png")!).CGColor
+    
+        //   backgroundView.backgroundColor = UIColor(patternImage: UIImage(named: "OTALogo.png"))
         // Override point for customization after application launch.
         return true
     }
