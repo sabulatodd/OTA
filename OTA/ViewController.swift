@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             view.addSubview(bgImage)
             //  view.sendSubviewToBack(self.bgImage)
         }
-        // Do any additional setup after loading the view, typically from a nib. Todd is back
+        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
