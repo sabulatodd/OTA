@@ -15,7 +15,7 @@
 		DD182BFA1B9F3F4600760A8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD182BF81B9F3F4600760A8C /* LaunchScreen.xib */; };
 		DD182C061B9F3F4600760A8C /* OTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182C051B9F3F4600760A8C /* OTATests.swift */; };
 		DD182C101B9F3F6700760A8C /* OTALogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD182C0F1B9F3F6700760A8C /* OTALogo.png */; };
-		DD182C131B9F62E500760A8C /* blackOTALogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD182C121B9F62E500760A8C /* blackOTALogo.png */; };
+		DDF1BAEE1BA89260009CEBE3 /* launchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF1BAED1BA89260009CEBE3 /* launchLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		DD182C041B9F3F4600760A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD182C051B9F3F4600760A8C /* OTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTATests.swift; sourceTree = "<group>"; };
 		DD182C0F1B9F3F6700760A8C /* OTALogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OTALogo.png; sourceTree = "<group>"; };
-		DD182C121B9F62E500760A8C /* blackOTALogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackOTALogo.png; sourceTree = "<group>"; };
+		DDF1BAED1BA89260009CEBE3 /* launchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				DD182C0F1B9F3F6700760A8C /* OTALogo.png */,
-				DD182C121B9F62E500760A8C /* blackOTALogo.png */,
+				DDF1BAED1BA89260009CEBE3 /* launchLogo.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -173,6 +173,8 @@
 		DD182BDF1B9F3F4600760A8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Todd Papke";
 				TargetAttributes = {
@@ -210,9 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD182BF51B9F3F4600760A8C /* Main.storyboard in Resources */,
-				DD182C131B9F62E500760A8C /* blackOTALogo.png in Resources */,
 				DD182BFA1B9F3F4600760A8C /* LaunchScreen.xib in Resources */,
 				DD182BF71B9F3F4600760A8C /* Images.xcassets in Resources */,
+				DDF1BAEE1BA89260009CEBE3 /* launchLogo.png in Resources */,
 				DD182C101B9F3F6700760A8C /* OTALogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +433,7 @@
 				DD182C0B1B9F3F4600760A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD182C0C1B9F3F4600760A8C /* Build configuration list for PBXNativeTarget "OTATests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +442,7 @@
 				DD182C0E1B9F3F4600760A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

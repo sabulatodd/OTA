@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>88198E58-A808-4717-A8B6-3C7A16D2A302</string>
 	<key>IDESourceControlProjectName</key>
-	<string>OTA</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>96305CB5BA56F42237A37492C8442DF54B6163D7</key>
 		<string>https://github.com/sabulatodd/OTA.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OTA.xcodeproj</string>
+	<string>OTA.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>96305CB5BA56F42237A37492C8442DF54B6163D7</key>
